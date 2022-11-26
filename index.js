@@ -9,7 +9,7 @@ app.use(cors());
 
 const io = new Server(server, {
   cors: {
-    origin: "https://mchat.netlify.app",
+    origin: "https://mchatt.netlify.app",
     methods: ["GET", "POST"],
   },
 });
